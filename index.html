@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="main-container">
+        
+            <h1>Tic tac toe</h1>
+            <div class="game-items">
+                <aside class="aside">
+                    <h3>High score<br>table</h3>
+                    <p class="title-wins">Wins:</p>
+                    <div class="results">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>X</th>
+                                    <td class="record-wonX">0</td>
+                                </tr>
+                                <tr>
+                                    <th>O</th>
+                                    <td class="record-wonO">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+                <section class="game-area">
+                    <div class="cell"><span class="span" data-cell="0"></span></div>
+                    <div class="cell"><span class="span" data-cell="1"></span></div>
+                    <div class="cell"><span class="span" data-cell="2"></span></div>
+                    <div class="cell"><span class="span" data-cell="3"></span></div>
+                    <div class="cell"><span class="span" data-cell="4"></span></div>
+                    <div class="cell"><span class="span" data-cell="5"></span></div>
+                    <div class="cell"><span class="span" data-cell="6"></span></div>
+                    <div class="cell"><span class="span" data-cell="7"></span></div>
+                    <div class="cell"><span class="span" data-cell="8"></span></div>
+                </section>
+                <aside class="aside">
+                    <h3>Score</h3>
+                    <div class="results">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>X</th>
+                                    <td class="cell-wonX">0</td>
+                                </tr>
+                                <tr>
+                                    <th>O</th>
+                                    <td class="cell-wonO">0</td>
+                                </tr>
+                                <tr>
+                                    <th>Draw</th>
+                                    <td class="cell-draw">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4>Games played</h4>
+                    <div class="games-count">0</div>
+                </aside>
+            </div>
+
+            <div class="game-message"></div>
+
+            <button class="button">Reset</button>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="leftpart">
+                <span class="copyright">&copy;</span>
+                <span class="year">2022</span>
+                <span class="githublink"><a href="https://github.com/atcherdsd" class="linkgit">atcherdsd</a></span>
+            </div>
+            <div class="rightpart"></div>
+        </div>
+    </footer>
+    
+    <script type="module" src="./index.js"></script>
+    
+</body>
+</html>
